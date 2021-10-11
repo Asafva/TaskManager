@@ -1,0 +1,90 @@
+#body{
+background-image: url(../tile.jpg);
+}
+
+#header {
+    text-align: center;
+    background-image: url(../title.png);
+    background-repeat: no-repeat;
+    margin: 24px 0px -45px 478px;
+    height: 100px;
+    width: 500px;
+}
+
+#task {
+    background-image: url(../formbg.jpg);
+    padding: 14px 46px 17px 51px;
+    line-height: 23px;
+    background-repeat: repeat-y;
+    background-position-x: center;
+    background-size: 32em;
+    width: 433px;
+    margin: auto;
+    text-align: left;
+}
+
+.formActions{
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+
+}
+
+#task_to_do{
+    background: transparent;
+    border: none;
+
+}
+
+#date_for_task{
+    background: transparent;
+    border: none;
+}
+
+#time_for_task{
+    background: transparent;
+    border: none;
+}
+
+#tasks > div {
+    background-image: url(../notebg.png);
+    width: 232px;
+    height: 231px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    animation-name: fadeInOut;
+    animation-duration: 1s;
+    padding: 21px 10px 58px 7px;
+    animation-timing-function: linear;
+}
+
+#tasks > div > div {
+    height: 150px;
+    overflow: hidden auto;
+}
+
+#tasks > div > button {
+    opacity: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+#tasks > div:hover > button {
+    opacity: 1;
+}
+
+@keyframes fadeInOut{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#tasks > div > span {
+    display: block;
+}
